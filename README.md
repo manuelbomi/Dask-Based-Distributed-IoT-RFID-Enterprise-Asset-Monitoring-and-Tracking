@@ -165,4 +165,77 @@ python -m data_generation.generate_temperature_data
 ```python
 data_generation/sample_data/temperature_logs.json
 ```
+
+#### You can also plug in your own sensor or RFID datasets — just ensure they follow a similar JSON or CSV schema.
+
+#### This flexibility allows integration with real enterprise IoT data streams.
+
+---
+
+## Analyzing Data with Dask
+
+#### The analytics/ folder contains Dask-based scripts to process and analyze generated data.
+
+
+#### Features include:
+
+- Distributed aggregation and filtering
+
+- Anomaly detection (temperature drift, RFID read loss)
+
+- Facility-level performance monitoring
+
+- Real-time asset tracking dashboards
+
+---
+
+## Why Dask?
+
+#### Traditional tools like Pandas and NumPy struggle when IoT data volumes grow beyond a single machine’s memory.
+
+#### Dask scales these workloads seamlessly across multiple cores and nodes — without changing your familiar Pandas syntax.
+
+#### Please see:   for detailed discussion and benefits of scaling up Numpy and Pandas workflows with Dask
+
+<ins>Benefits for IoT & RFID Analytics</ins>:
+
+- Parallel ETL pipelines for millions of sensor events
+
+- Lazy evaluation for memory-efficient operations
+
+-  Easy scaling to Kubernetes, EC2, or on-prem clusters
+
+- Integration with Streamlit, MLflow, and other analytics tools
+
+---
+
+## Interactive Dashboards
+
+#### After running the project, open:
+
+-  Streamlit App – IoT Analytics Dashboard
+
+*(Available at: http://localhost:8501/ )*
+
+You will find:
+
+📊 Real-time temperature trend charts
+
+🛰️ Asset tracking maps and tables
+
+🚨 Anomaly and drift detection visualizations
+
+- Dask Workflow Dashboard
+
+*(Available at:   http://127.0.0.1:8787/system )*
+
+You will, in real-time see the number of workers that Dask is deploying for your job, CPU load, amount of data being analyzed and numerous other system details. Examples are shown below:
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/949c633d-a1e3-406c-9cbe-db5c3e5ecb32" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2199d1c3-f7ab-4517-a028-a80d2d84615a" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bdd430bc-7918-4e18-a635-99344cf67d4c" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/63bccaf0-1e5e-446f-8398-69ef93e8a87a" />
       
