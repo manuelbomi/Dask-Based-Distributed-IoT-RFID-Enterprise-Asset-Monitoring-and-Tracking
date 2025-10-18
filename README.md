@@ -141,4 +141,14 @@ docker-compose up --build
 
 > [!NOTE]
 > Please ensure that you have Docker running on your system before the **docker-compose up --build** command
+
+--- 
+
+## Generating IoT and RFID Data
+
+#### The project includes realistic data generators to simulate industrial IoT sensors and RFID events.
+
+- To generate RFID and IoT sensors data, click on the data generatiing buttons on teh Streamlit front end. 
+
+Example: Generate temperature sensor data
       
