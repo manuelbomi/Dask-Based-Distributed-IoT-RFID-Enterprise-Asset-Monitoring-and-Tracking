@@ -213,29 +213,40 @@ data_generation/sample_data/temperature_logs.json
 
 #### After running the project, open:
 
--  Streamlit App – IoT Analytics Dashboard
+-  (1). Streamlit App – IoT Analytics Dashboard
 
 *(Available at: http://localhost:8501/ )*
 
-You will find:
+#### On the Streamlit dashboard, you will find:
 
-📊 Real-time temperature trend charts
+#### 📊  Real-time temperature trend charts
 
-🛰️ Asset tracking maps and tables
+#### 🛰️  Asset tracking maps and tables
 
-🚨 Anomaly and drift detection visualizations
+#### 🚨 Anomaly and drift detection visualizations
 
-- Dask Workflow Dashboard
+
+- (2). Dask Workflow Dashboard
 
 *(Available at:   http://127.0.0.1:8787/system )*
 
-You will, in real-time see the number of workers that Dask is deploying for your job, CPU load, amount of data being analyzed and numerous other system details. Examples are shown below:
+#### On the Dask dashboard, you will, in real-time,  see the number of workers that Dask is deploying for your job, CPU load, amount of data being analyzed and numerous other system details. Examples are shown below:
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/949c633d-a1e3-406c-9cbe-db5c3e5ecb32" />
+
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2199d1c3-f7ab-4517-a028-a80d2d84615a" />
 
+---
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bdd430bc-7918-4e18-a635-99344cf67d4c" />
 
+---
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/63bccaf0-1e5e-446f-8398-69ef93e8a87a" />
+
+--- 
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/949c633d-a1e3-406c-9cbe-db5c3e5ecb32" />
+
+---
       
