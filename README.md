@@ -310,17 +310,6 @@ data_generation/sample_data/temperature_logs.json
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
 Thank you for reading
   
 
