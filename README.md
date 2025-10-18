@@ -61,7 +61,7 @@ iot_enterprise_RIFD_IoT_use_cases_emm_oye/
 
 #### Below are examples of the types of detailed analytics that could be obatined from the project by either uploading your company's proprietary datasets or using the project to generate realistic IoT sensor or RFID inventory datasets of the form:
 
-#### <Temperature Sensor>:
+#### <ins>Temperature Sensor</ins>:
 
 ```python
 {
@@ -73,7 +73,8 @@ iot_enterprise_RIFD_IoT_use_cases_emm_oye/
 }
 ```
 
-#### <RFID Inventory Events>:
+#### <ins>RFID Inventory Events</ins>:
+
 ```python
 
 {
@@ -89,6 +90,26 @@ iot_enterprise_RIFD_IoT_use_cases_emm_oye/
    
   }
 }
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dc1826cf-de7e-44a9-895e-996b26cc9bdd" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dde95ddd-cdea-446a-b2e7-aa7c2b9f5708" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/6544148a-caf5-46f3-b95c-7007233f636a" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/fd33daba-7dea-4c2a-a92e-c942b47e9d3c" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/610d8387-cd8b-4e11-bd2e-dd24d4e025c4" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/abb0f31e-c256-4cbd-b078-fe4e22fce2a7" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/5dfc7952-6223-4aef-aee1-9c3eea54c776" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0ac594cd-30a6-424f-894d-1e7705f15879" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/9dfd4a16-d9b1-4df2-b1a0-5344ab2ac19e" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/53a5982c-af3a-4bb4-9fdb-301a92dd58de" />
 
 ```
 
