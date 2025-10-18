@@ -93,9 +93,6 @@ iot_enterprise_RIFD_IoT_use_cases_emm_oye/
 
 ```
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dc1826cf-de7e-44a9-895e-996b26cc9bdd" />
-
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dde95ddd-cdea-446a-b2e7-aa7c2b9f5708" />
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/6544148a-caf5-46f3-b95c-7007233f636a" />
 
@@ -104,6 +101,10 @@ iot_enterprise_RIFD_IoT_use_cases_emm_oye/
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/0ac594cd-30a6-424f-894d-1e7705f15879" />
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/610d8387-cd8b-4e11-bd2e-dd24d4e025c4" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dc1826cf-de7e-44a9-895e-996b26cc9bdd" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dde95ddd-cdea-446a-b2e7-aa7c2b9f5708" />
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/abb0f31e-c256-4cbd-b078-fe4e22fce2a7" />
 
