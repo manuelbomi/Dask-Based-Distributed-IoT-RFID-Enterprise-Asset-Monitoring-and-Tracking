@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  streamlit-app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data_generation/sample_data:/app/data_generation/sample_data
+      - ./streamlit_app/assets:/app/streamlit_app/assets
+    environment:
+      - PYTHONPATH=/app
+      - DASK_DISTRIBUTED__SCHEDULER__WORK_STEALING=True
+      - DASK_DISTRIBUTED__COMM__TIMEOUTS__CONNECT=60s
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 2G
+
+  dask-scheduler:
+    image: daskdev/dask:latest
+    ports:
+      - "8786:8786"
+      - "8787:8787"
+    command: ["dask-scheduler"]
+    environment:
+      - DASK_DISTRIBUTED__SCHEDULER__WORK_STEALING=True
+
+  dask-worker:
+    image: daskdev/dask:latest
+    depends_on:
+      - dask-scheduler
+    command: ["dask-worker", "tcp://dask-scheduler:8786"]
+    environment:
+      - DASK_DISTRIBUTED__SCHEDULER__WORK_STEALING=True
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 1G
+
+volumes:
+  sample_data:
+    driver: local
