@@ -108,7 +108,7 @@ iot_enterprise_RIFD_IoT_use_cases_emm_oye/
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/9dfd4a16-d9b1-4df2-b1a0-5344ab2ac19e" />
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/53a5982c-af3a-4bb4-9fdb-301a92dd58de" />
+
 
 
 
