@@ -6,7 +6,7 @@
 
 ##### This repository demonstrates how **Dask** can scale traditional data processing frameworks like **Pandas** to handle **large-scale IoT and RFID sensor data** in enterprise environments.  
 
-##### The project simulates **asset tracking**, **temperature monitoring**, and **sensor analytics** using a distributed compute cluster powered by **Dask** and an interactive **Streamlit dashboard** for visualization. The project is sequel to another project that comprehensively discusses how dask can be used to scale up enterprise RFID/IoT. The first project is available here:  
+##### The project simulates **asset tracking**, **temperature monitoring**, and **sensor analytics** using a distributed compute cluster powered by **Dask** and an interactive **Streamlit dashboard** for visualization. The project is sequel to another project that comprehensively discusses how dask can be used to scale up enterprise RFID/IoT. The first project is available here:  https://github.com/manuelbomi/Enterprise-IoT-Dask---High-Performance-Distributed-Analytics-for-RFID-IoT-Sensors-Data.git
 
 ##### You can use this project to:
 - Generate realistic IoT and RFID datasets (temperature sensors, cold-chain assets, etc.)
@@ -195,7 +195,7 @@ data_generation/sample_data/temperature_logs.json
 
 #### Dask scales these workloads seamlessly across multiple cores and nodes — without changing your familiar Pandas syntax.
 
-#### Please see:   for detailed discussion and benefits of scaling up Numpy and Pandas workflows with Dask
+#### Please see: *https://github.com/manuelbomi/Enterprise-IoT-Dask---High-Performance-Distributed-Analytics-for-RFID-IoT-Sensors-Data.git*  for detailed discussion and benefits of scaling up Numpy and Pandas workflows with Dask
 
 <ins>Benefits for IoT & RFID Analytics</ins>:
 
