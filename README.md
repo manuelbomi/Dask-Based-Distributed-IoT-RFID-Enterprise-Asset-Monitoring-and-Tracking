@@ -61,5 +61,37 @@ iot_enterprise_RIFD_IoT_use_cases_emm_oye/
 
 #### Below are examples of the types of detailed analytics that could be obatined from the project by either uploading your company's proprietary datasets or using the project to generate realistic IoT sensor or RFID inventory datasets of the form:
 
+#### <Temperature Sensor>:
+
+```python
+{
+  "event": "temperature_read",
+  "epc": "3014B2C3D4E5F6",
+  "temperature": 22.5,
+  "unit": "C",
+  "timestamp": "2024-01-15T10:00:00Z"
+}
+```
+
+#### <RFID Inventory Events>:
+```python
+
+{
+  "timestamp": "2024-07-11T18:55:05.119283747Z",
+  "tagInventoryEvent": {
+    "epc_number": "ABAB7234567890A5A5A5A5A501000012",
+    "gateway_location": abc10,
+    "gateway_xmit_power": 2200,
+    "gateway_ph_ang": 91
+    "gateway_ant_port" : 8,
+    "gateway_ant_rssi": -2250,
+    "gateway_freq"": 8897300 
+   
+  }
+}
+
+```
+
+
 
       
