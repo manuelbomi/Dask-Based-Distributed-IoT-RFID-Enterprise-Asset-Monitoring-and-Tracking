@@ -249,4 +249,20 @@ data_generation/sample_data/temperature_logs.json
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/949c633d-a1e3-406c-9cbe-db5c3e5ecb32" />
 
 ---
+
+
+
+
+## Technology Stack
+
+| Layer | Technologies |
+|-------|-------------|
+| **Frontend** | Streamlit |
+| **Analytics Engine** | Pandas, Dask (Distributed Computing) |
+| **Visualization** | Plotly, Matplotlib, Seaborn, Bokeh |
+| **Data Processing** | NumPy, JSON, DateTime |
+| **Containerization** | Docker, Docker Compose |
+| **Testing** | PyTest, unittest |
+| **Development** | Python 3.9, VS Code |
+| **Data Generation** | Custom IoT/RFID Simulators |
       
