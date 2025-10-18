@@ -1,4 +1,4 @@
-# 🌐 Dask-Based Distributed IoT/RFID Enterprise Asset Tracking
+# 🌐 Dask-Based Distributed IoT/RFID Enterprise Asset Monitoring & Tracking
 
 ### **(Distributed Analytics and Monitoring for IoT and RFID Asset Tracking using Dask, Docker and Streamlit)**
 
