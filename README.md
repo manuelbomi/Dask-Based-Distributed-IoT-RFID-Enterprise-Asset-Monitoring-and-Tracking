@@ -102,10 +102,6 @@ iot_enterprise_RIFD_IoT_use_cases_emm_oye/
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/610d8387-cd8b-4e11-bd2e-dd24d4e025c4" />
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dc1826cf-de7e-44a9-895e-996b26cc9bdd" />
-
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dde95ddd-cdea-446a-b2e7-aa7c2b9f5708" />
-
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/abb0f31e-c256-4cbd-b078-fe4e22fce2a7" />
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/5dfc7952-6223-4aef-aee1-9c3eea54c776" />
@@ -148,7 +144,25 @@ docker-compose up --build
 
 #### The project includes realistic data generators to simulate industrial IoT sensors and RFID events.
 
-- To generate RFID and IoT sensors data, click on the data generatiing buttons on teh Streamlit front end. 
+- To generate RFID and IoT sensors data, click on the data generatiing buttons on teh Streamlit front end.
+
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dc1826cf-de7e-44a9-895e-996b26cc9bdd" />
+
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dde95ddd-cdea-446a-b2e7-aa7c2b9f5708" />
+
+- You can also manually generate data by using appropriate commands at the nack end through your VSCode terminal
 
 Example: Generate temperature sensor data
+
+```python
+python -m data_generation.generate_temperature_data
+```
+
+#### This will create a JSON file in:
+
+```python
+data_generation/sample_data/temperature_logs.json
+```
       
