@@ -118,14 +118,27 @@ iot_enterprise_RIFD_IoT_use_cases_emm_oye/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 1️⃣ Clone the Repository
+### 1️. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/enterprise-iot-dask-asset-tracking.git
+git clone https://github.com/manuelbomi/Dask-Based-Distributed-IoT-RFID-Enterprise-Asset-Tracking.git
 cd enterprise-iot-dask-asset-tracking
+```
 
+### 2️. Build and Run with Docker Compose
 
+This setup launches:
 
+A Streamlit web app for visualization
+
+A Dask scheduler + workers for distributed computation
+
+```bash
+docker-compose up --build
+```
+
+> [!NOTE]
+> Please ensure that you have Docker running on your system before the **docker-compose up --build** command
       
