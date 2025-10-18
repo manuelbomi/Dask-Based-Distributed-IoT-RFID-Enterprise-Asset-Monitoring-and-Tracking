@@ -2,7 +2,12 @@
 
 ### **(Distributed Analytics and Monitoring for IoT and RFID Asset Tracking using Dask, Docker and Streamlit)**
 
-![IoT Architecture Overview](./1aa.png)
-![RFID Sensor Data Flow](./1cc.png)
+<div align="center">
 
----
+  <!-- IoT Architecture Overview -->
+  <img src="./1aa.png" alt="IoT Architecture Overview" width="450"/>
+
+  <!-- RFID Sensor Data Flow -->
+  <img src="./1cc.png" alt="RFID Sensor Data Flow" width="450"/>
+
+</div>
