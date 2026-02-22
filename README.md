@@ -59,7 +59,7 @@ iot_enterprise_RIFD_IoT_use_cases_emm_oye/
 
 ## Streamlit Frontend Outputs
 
-#### Below are examples of the types of detailed analytics that could be obatined from the project by either uploading your company's proprietary datasets or using the project to generate realistic IoT sensor or RFID inventory datasets of the form:
+#### Below are examples of the types of detailed analytics that could be obtained from the project by either uploading your company's proprietary datasets or using the project to generate realistic IoT sensor or RFID inventory datasets of the form:
 
 #### <ins>Temperature Sensor</ins>:
 
